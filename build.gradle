@@ -1,0 +1,5 @@
+dependencies {
+    def mobileCenterSdkVersion = '0.13.0'
+    compile "com.microsoft.azure.mobile:mobile-center-analytics:${mobileCenterSdkVersion}"
+    compile "com.microsoft.azure.mobile:mobile-center-crashes:${mobileCenterSdkVersion}"
+}
